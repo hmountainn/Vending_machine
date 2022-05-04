@@ -73,7 +73,7 @@ public class DrinkMachine {
 			System.out.print("투입하실 돈을 입력해주세요: ");
 			coin = scan.nextInt();
 			inputCoin = inputCoin + coin;
-			user.UseCoin(inputCoin);
+			user.UseCoin(inputCoin); 
 		}
 	}
 	
