@@ -2,13 +2,18 @@ package Customer;
 
 import java.util.ArrayList;
 
-public class User1 {
+public class User {
 	String name;
 	int money;
 	ArrayList<String> purchase;
 	
+	
+	public User() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	//»ý¼ºÀÚ
-	public User1(String name, int money, ArrayList<String> purchase) {
+	public User(String name, int money, ArrayList<String> purchase) {
 		super();
 		this.name = name;
 		this.money = money;
